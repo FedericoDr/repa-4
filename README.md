@@ -28,5 +28,5 @@ para luego proceder a hacer un npm install
 - También hay un apartado para poder dejar tus datos de contacto.
 
 ## Expresiones de Gratitud Con el Equipo
-Comenta a otros sobre este proyecto 
-Invita un café ☕ a alguien del equipo.
+- Comenta a otros sobre este proyecto 
+- Invita un café ☕ a alguien del equipo.
