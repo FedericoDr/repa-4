@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Texto {
+    border-radius: 5px ;
+    border: 1px solid black;
+    padding: 7px;
+    display: block;
+    height: 40px;
+    width: 300px;
+    border-radius: 4px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.Hola{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Cajas{
+    margin: 100px;
+    padding: 50px;
+    background-color: #38667a94;
+    border: 0px solid #38667a94;
+    border-radius: 8px 0px;
+}
+
+.BotonCon{
+    position: center;
+    border: 0px solid rgb(233, 233, 233);
+    background: #df4646;
+    border-radius: 10px 0px;
+    padding: 10px;
+    transition-duration: 0.4s;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.BotonCon:hover{
+    box-shadow: 0 12px 70px 0 rgba(27, 27, 27, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.719);
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+.h1{
+font-size: 300px;
+};
+
+/* Agradecimiento css */

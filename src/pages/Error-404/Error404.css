@@ -1,0 +1,187 @@
+#paginaError{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    color:red;
+}
+.mensajes{
+    font-size: 30px;
+    height: 30px;
+    animation: mensaje 10s infinite;
+}
+@keyframes mensaje {
+    20%
+    {color: red;
+    background-color: black;
+    transform: translateX(-80px);
+    }
+    40%
+    {color: black;
+    background-color: red;
+    transform: translateY(200px);
+    }
+    60%
+    {color: red;
+    background-color: black;
+    transform: translateX(0px);
+    }
+    80%
+    {color: black;
+    background-color: red;
+    transform: translateY(500px);
+    }
+    100%
+    {color: red;
+    background-color: black;
+    
+    transform:translateX(0px);
+    }  
+}
+#contenedor{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+#titulo404{
+    font-size: 100px;
+    animation: titulo 10s infinite;
+}
+@keyframes titulo {
+    20%
+    {color: red;
+    background-color: black;
+    }
+    40%
+    {color: black;
+    background-color: red;
+    }
+    60%
+    {color: red;
+    background-color: black;
+    }
+    80%
+    {color: black;
+    background-color: red;
+    }
+    100%
+    {color: red;
+    background-color: black;
+    }   
+}
+#ventana{
+    
+    border: 4px ridge silver;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    animation: ventana 10s infinite;
+}
+@keyframes ventana {
+    20%{
+        background: rgb(5,8,46);
+        background: linear-gradient(180deg, rgba(5,8,46,1) 0%, rgba(2,4,28,1) 0%, rgba(246,3,8,1) 1%, rgba(0,0,0,1) 2%);
+    }
+    40%{
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 35%, rgba(2,4,28,1) 52%, rgba(5,8,46,1) 70%, rgba(12,19,92,1) 91%, rgba(250,4,4,1) 100%);
+    }
+    60%{
+        background: rgb(5,8,46);
+        background: linear-gradient(180deg, rgba(5,8,46,1) 0%, rgba(2,4,28,1) 0%, rgba(246,3,8,1) 1%, rgba(0,0,0,1) 2%);
+    }
+    80%{
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 35%, rgba(2,4,28,1) 52%, rgba(5,8,46,1) 70%, rgba(12,19,92,1) 91%, rgba(250,4,4,1) 100%);
+    }
+    100%{
+        background: rgb(5,8,46);
+        background: linear-gradient(180deg, rgba(5,8,46,1) 0%, rgba(2,4,28,1) 0%, rgba(246,3,8,1) 1%, rgba(0,0,0,1) 2%);
+    }
+}
+#orejaDerecha{
+    margin: 0px 0px -25px 110px;
+    height: 100px;
+    width: 100px;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 15%, rgba(33,22,22,1) 79%);
+    clip-path: polygon(24% 100%, 20% 91%, 20% 82%, 18% 68%, 17% 50%, 17% 37%, 17% 28%, 22% 21%, 29% 21%, 35% 26%, 38% 34%, 45% 50%, 53% 71%, 62% 82%, 67% 98%, 67% 100%);
+    rotate: -40deg;
+}
+#orejaIzquierda{
+    margin: -70px 0px 0px 280px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 15%, rgba(33,22,22,1) 79%);
+    clip-path: polygon(24% 100%, 20% 91%, 20% 82%, 18% 68%, 17% 50%, 17% 37%, 17% 28%, 22% 21%, 29% 21%, 35% 26%, 38% 34%, 45% 50%, 53% 71%, 62% 82%, 67% 98%, 67% 100%);
+    /*rotate: 23deg;*/
+    transform: rotateY(180deg);
+    rotate: 40deg;
+}
+#cabeza{
+    margin: -20px 0px 0px 170px;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 61%, rgba(33,22,22,1) 92%);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    height: 150px;
+    width: 150px;
+}
+#ojoDerecho{
+    position: absolute;
+    margin: -120px 0px 0px 190px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 40%, rgba(243,249,0,1) 49%, rgba(0,0,0,1) 53%, rgba(243,249,0,1) 57%, rgba(0,0,0,1) 66%);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+}
+#ojoIzquierdo{
+    position: absolute;
+    margin: -120px 0px 0px 270px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 40%, rgba(243,249,0,1) 49%, rgba(0,0,0,1) 53%, rgba(243,249,0,1) 57%, rgba(0,0,0,1) 66%);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+#nariz{
+    clip-path: polygon(0 68%, 20% 34%, 80% 34%, 94% 67%, 53% 89%);
+    margin: -100px 0px 0px 220px;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 15%, rgba(33,22,22,1) 79%);
+    height: 50px;
+    width: 50px;
+}
+#bigote{
+    width: 60px;
+    height: 2px;
+    background-color: white;
+}
+#bigoteDerecho{
+    margin: 0px 0px 0px 170px;
+    display: flex;
+    flex-flow: wrap;
+    position:absolute;
+    height: 40px;
+    width: 60px;
+}
+#bigoteIzquierdo{
+    position: absolute;
+    margin: 0px 0px 0px 260px;
+    display: flex;
+    flex-flow: wrap;
+    height: 40px;
+    width: 60px;
+}
+#boca{
+    background-color: red;
+    margin: -5px 0px 0px 220px;
+    clip-path: polygon(100% 85%, 50% 100%, 0 84%, 0 80%, 50% 95%, 100% 80%);
+    height: 50px;
+    width: 50px;
+}

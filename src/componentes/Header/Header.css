@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.Contenedor{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    background: #010d23;
+}
+
+.Titulo{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+
+.Links{
+    color: azure;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+    font-size: 18px;
+    margin-left: 5rem;
+    cursor: pointer;
+}

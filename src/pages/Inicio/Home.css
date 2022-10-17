@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+ 
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+.Body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  font-family: "Righteous", cursive;
+  min-height: 100vh;
+  background-color: #a9c9ff;
+  background-image: linear-gradient(180deg, #cddfcd 0%, #cddfcd 100%);
+}
+.Body .container {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 35px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.Body .container .card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  background: #001f36;
+  border-radius: 15px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+.Body .container .card .face {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Body .container .card .face.face1 {
+  box-sizing: border-box;
+  padding: 20px;
+}
+.Body .container .card .face.face1 h2 {
+  margin: 0;
+  padding: 0;
+}
+.Body .container .card .face.face1 .Crear {
+  background-color: #ececec;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Body .container .card .face.face1 .Borrar {
+  background-color: #ececec;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Body .container .card .face.face1 .Buscar {
+  background-color: #ececec;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Body .container .card .face.face2 {
+  transition: 0.5s;
+  background: #272d4d;
+  border-radius: 10px;
+} 
+.Body .container .card .face.face2 h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  color: #fff;
+  transition: 0.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+.Body .container .card:hover .face.face2 {
+  height: 60px;
+}
+.Body .container .card:hover .face.face2 h2 {
+  font-size: 2em;
+}
+.Body .container .card:nth-child(1) .face.face2 {
+  background-color:#272d4d;
+  border-radius: 15px;
+}
+.Body .container .card:nth-child(2) .face.face2 {
+  background-color: #272d4d;
+  border-radius: 15px;
+}
+.Body .container .card:nth-child(3) .face.face2 {
+  background-color: #272d4d;
+  border-radius: 15px;
+}
+
+
+.cabecera{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #272d4d solid 1px;
+  background: #272d4d;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  color: #ececec;
+}
+
+.bottone{
+  color: #ffffff;
+  background: #df4646;
+  padding: 10px;
+  border-radius: 10px 0px;
+  font-style: oblique;
+  transition-duration: 0.4s;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.bottone:hover{
+  box-shadow: 0 12px 70px 0 rgba(27, 27, 27, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.719);
+  background-color: #4CAF50;
+  color: white;
+}
+
+.titulo{
+  display: flex;
+}
