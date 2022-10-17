@@ -1,4 +1,4 @@
-## Proyecto Repartido 4
+### Proyecto Repartido 4
 
 # Integrantes
 
