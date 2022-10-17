@@ -8,7 +8,7 @@
 
 # Como descargar archivo
 
-- Ve al siguiente link https://github.com/zOpaXp/repa4
+- Ve al siguiente link https://github.com/z0paXp/repa-4
 - Presionamos botón CODE.
 - Saldrán opciones debemos presionar download zip.
 
@@ -29,4 +29,4 @@ para luego proceder a hacer un npm install
 
 ## Expresiones de Gratitud Con el Equipo
 Comenta a otros sobre este proyecto 
-Invita un café coffee a alguien del equipo.
+Invita un café ☕ a alguien del equipo.
