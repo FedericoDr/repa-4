@@ -8,7 +8,7 @@
 
 # Como descargar archivo
 
-- Ve al siguiente link https://github.com/z0paXp/repa-4
+- Ve al siguiente link https://github.com/FedericoDr/repa-4
 - Presionamos botón `CODE`.
 - Saldrán opciones debemos presionar `download zip`.
 
