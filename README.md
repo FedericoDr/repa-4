@@ -9,8 +9,8 @@
 # Como descargar archivo
 
 - Ve al siguiente link https://github.com/z0paXp/repa-4
-- Presionamos botón CODE.
-- Saldrán opciones debemos presionar download zip.
+- Presionamos botón `CODE`.
+- Saldrán opciones debemos presionar `download zip`.
 
 # Como empezar a usar el proyecto
 
